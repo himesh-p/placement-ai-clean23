@@ -1,0 +1,17 @@
+{
+  "name": "ai-placement-platform",
+  "version": "1.0.0",
+  "description": "AI-Powered Career Intelligence Platform for College Students",
+  "scripts": {
+    "install:server": "cd server && npm install",
+    "install:client": "cd client && npm install",
+    "install:all": "npm run install:server && npm run install:client",
+    "start:server": "cd server && node index.js",
+    "start:client": "cd client && npm start",
+    "dev:server": "cd server && npm run dev",
+    "start:ml": "cd ml-service && python app.py",
+    "setup": "npm run install:all"
+  },
+  "author": "AI Placement Platform",
+  "license": "MIT"
+}
